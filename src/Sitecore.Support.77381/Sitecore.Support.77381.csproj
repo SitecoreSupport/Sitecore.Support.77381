@@ -41,11 +41,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Sitecore.Client, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib\Sitecore.Client.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Client.7.2.6\lib\Sitecore.Client.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Kernel.7.2.160123\lib\NET45\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Kernel.7.2.6\lib\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data.DataSetExtensions" />
